@@ -1,0 +1,20 @@
+.filter-opportunities {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.filter-opportunities input {
+  padding: 8px;
+  border: 1px solid #7676b2;
+  border-radius: 5px;
+  width: 400PX;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.filter-opportunities input:focus {
+  border-color: #7676b2; 
+  box-shadow: 0 0 5px rgba(118, 118, 178, 0.5);
+}

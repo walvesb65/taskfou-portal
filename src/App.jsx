@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./pages/login";
+// import Login from "./pages/login";
+import Opportunities from "./pages/Opportunities";
 import { AuthProvider } from "./contexts/AuthContext";
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
     <Router>
       <AuthProvider>
         <Routes>
-          <Route path="/" element={<Login />} />
+          <Route path="/" element={<Opportunities />} />
           {/* <Route path="/account-registration" element={<Registration />} /> */}
           {/* <Route path="*" element={<NotFound />} /> */}
         </Routes>
