@@ -16,7 +16,7 @@ export default function Opportunities() {
     const data = [
       {
         Vaga_Id: 3038,
-        Vaga_Titulo: "Analista Senior de Data Analytics para Risco de Crédito de Contraparte - Risk & Compliance",
+        Vaga_Titulo: "Analista de Sistemas",
         Vaga_Responsabilidade: "Desenvolver e manter sistemas",
         Vaga_Diferencial: "Experiência com React",
         Vaga_Remuneracao: 4500.50,

@@ -19,7 +19,7 @@ export default function OpportunityDetail({ opportunity }) {
           <p>{opportunity.Vaga_LocalTrabalho}</p>
         </div>
         <div className='box-btn-redirect-candidacy'>
-          <Link to={'/vaga/id'} className='btn-redirect-candidacy'>
+          <Link to={`/opportunity/${opportunity.Vaga_Id}`} className='btn-redirect-candidacy'>
               <span>Candidatar-se agora</span>
           </Link>
           <span>ID:{opportunity.Vaga_Id}</span>
