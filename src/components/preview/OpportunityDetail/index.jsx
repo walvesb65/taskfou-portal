@@ -32,14 +32,14 @@ export default function OpportunityDetail({ opportunity }) {
           <p>{opportunity.vaga_Descricao}</p>
         </div>
 
-        <div className="box-Requirements">
+        {/* <div className="box-Requirements">
           <h3>Requisitos:</h3>
           <ul>
             {opportunities.requirements.map((e) => {
               <li>{e}</li>;
             })}
           </ul>
-        </div>
+        </div> */}
         {/* 
         <p>{opportunity.Vaga_Responsabilidade}</p>
         <p>{opportunity.Vaga_Requisitos}</p>
