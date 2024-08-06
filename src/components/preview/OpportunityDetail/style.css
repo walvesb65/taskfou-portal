@@ -1,0 +1,77 @@
+.detail-opportunities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #c7c7c7;
+}
+
+.header-detail-opportunities {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  text-align: center;
+  width: 90%;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+/* .btn-redirect-candidacy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 170px;
+  color: #ffff;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #5797e0;
+} */
+
+.box-btn-redirect-candidacy {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-redirect-candidacy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 150px;
+  padding: 0 12px;
+  background-color: #323253;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 0 0 10px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-redirect-candidacy:hover {
+  background-color: #4846df;
+}
+
+.lupa-icon {
+  width: 200px;
+}
+
+.body-detail-opportunities {
+  width: 90%;
+}
+
+.box-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.box-description p {
+  text-align: justify;
+}
