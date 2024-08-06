@@ -16,10 +16,11 @@ export default function Opportunities() {
     const data = [
       {
         Vaga_Id: 3038,
-        Vaga_Titulo: "Analista de Sistemas",
+        Vaga_Titulo:
+          "Analista Senior de Data Analytics para Risco de Crédito de Contraparte - Risk & Compliance",
         Vaga_Responsabilidade: "Desenvolver e manter sistemas",
         Vaga_Diferencial: "Experiência com React",
-        Vaga_Remuneracao: 4500.50,
+        Vaga_Remuneracao: 4500.5,
         Vaga_Justificativa: null,
         Vaga_EmailVisualizadores: null,
         Vaga_Datacriacao: "2024-07-19T00:05:23.220Z",
@@ -28,19 +29,26 @@ export default function Opportunities() {
         talentosAtivos: 3,
         Empresa_RazaoSocial: "Tech Solutions",
         Departamento_Descricao: "TI",
+        vaga_Descricao:
+          "No Mercado Livre estamos democratizando o comércio e os serviços financeiros para transformar a vida das pessoas na América Latina. Faça parte deste propósito! Na área de Risk & Compliance desenvolvemos ações para fortalecer a confiança dos nossos stakeholders. Desafiamos os enfoques tradicionais através de soluções inovadoras e promovemos uma cultura de excelência e cumprimento das normas. A nossa equipe interdisciplinar trabalha na gestão integral dos riscos de conformidade e no desenvolvimento da resiliência da nossa empresa, cuidando do nosso ecossistema empreendedor em cada um dos países onde estamos presentes.",
         Vaga_Cargo: null,
         Vaga_LocalTrabalho: "São Paulo",
         Vaga_Tipo_Contrato: 1,
         Vaga_Usuario: 18,
         Vaga_Periodo_Vaga: 1,
-        Vaga_Requisitos: "Conhecimentos avançados em JavaScript"
+        requirements: [
+          "Ter graduação completa em Economia, Matemática, Estatística, Física, Engenharia ou áreas afins.",
+          "Contar com 4  anos de experiência em risco de Riscos Financeiros (Risco de Liquidez, Risco de Mercado Mercado, Risco de Crédito ou área de finanças).",
+          "Possuir conhecimento de métricas de riscos de crédito e de instrumentos financeiros de tesouraria.",
+          "Ter experiência com linguagens de programação tais como SQL, Python ou R, Tableau (desejável).",
+        ],
       },
       {
         Vaga_Id: 3039,
         Vaga_Titulo: "Desenvolvedor Front-end",
         Vaga_Responsabilidade: "Implementar interfaces de usuário",
         Vaga_Diferencial: "Experiência com Angular",
-        Vaga_Remuneracao: 4000.00,
+        Vaga_Remuneracao: 4000.0,
         Vaga_Justificativa: null,
         Vaga_EmailVisualizadores: null,
         Vaga_Datacriacao: "2024-07-20T00:00:00.000Z",
@@ -54,14 +62,14 @@ export default function Opportunities() {
         Vaga_Tipo_Contrato: 1,
         Vaga_Usuario: 18,
         Vaga_Periodo_Vaga: 1,
-        Vaga_Requisitos: "Experiência em desenvolvimento web"
+        Vaga_Requisitos: "Experiência em desenvolvimento web",
       },
       {
         Vaga_Id: 3040,
         Vaga_Titulo: "Gerente de Projetos",
         Vaga_Responsabilidade: "Gerenciar projetos de software",
         Vaga_Diferencial: "Certificação PMP",
-        Vaga_Remuneracao: 7000.00,
+        Vaga_Remuneracao: 7000.0,
         Vaga_Justificativa: null,
         Vaga_EmailVisualizadores: null,
         Vaga_Datacriacao: "2024-07-21T00:00:00.000Z",
@@ -75,14 +83,14 @@ export default function Opportunities() {
         Vaga_Tipo_Contrato: 2,
         Vaga_Usuario: 18,
         Vaga_Periodo_Vaga: 1,
-        Vaga_Requisitos: "Experiência em gerenciamento de projetos"
+        Vaga_Requisitos: "Experiência em gerenciamento de projetos",
       },
       {
         Vaga_Id: 3041,
         Vaga_Titulo: "Especialista em Marketing Digital",
         Vaga_Responsabilidade: "Desenvolver campanhas de marketing online",
         Vaga_Diferencial: "Experiência com SEO",
-        Vaga_Remuneracao: 5000.00,
+        Vaga_Remuneracao: 5000.0,
         Vaga_Justificativa: null,
         Vaga_EmailVisualizadores: null,
         Vaga_Datacriacao: "2024-07-22T00:00:00.000Z",
@@ -96,14 +104,14 @@ export default function Opportunities() {
         Vaga_Tipo_Contrato: 1,
         Vaga_Usuario: 18,
         Vaga_Periodo_Vaga: 1,
-        Vaga_Requisitos: "Conhecimentos em marketing digital"
+        Vaga_Requisitos: "Conhecimentos em marketing digital",
       },
       {
         Vaga_Id: 3042,
         Vaga_Titulo: "Analista de Suporte Técnico",
         Vaga_Responsabilidade: "Prestar suporte técnico a clientes",
         Vaga_Diferencial: "Conhecimentos em redes",
-        Vaga_Remuneracao: 3500.00,
+        Vaga_Remuneracao: 3500.0,
         Vaga_Justificativa: null,
         Vaga_EmailVisualizadores: null,
         Vaga_Datacriacao: "2024-07-23T00:00:00.000Z",
@@ -117,14 +125,14 @@ export default function Opportunities() {
         Vaga_Tipo_Contrato: 1,
         Vaga_Usuario: 18,
         Vaga_Periodo_Vaga: 1,
-        Vaga_Requisitos: "Conhecimentos em suporte técnico"
+        Vaga_Requisitos: "Conhecimentos em suporte técnico",
       },
       {
         Vaga_Id: 3043,
         Vaga_Titulo: "Engenheiro de Software",
         Vaga_Responsabilidade: "Desenvolver soluções de software",
         Vaga_Diferencial: "Experiência com arquitetura de software",
-        Vaga_Remuneracao: 6000.00,
+        Vaga_Remuneracao: 6000.0,
         Vaga_Justificativa: null,
         Vaga_EmailVisualizadores: null,
         Vaga_Datacriacao: "2024-07-24T00:00:00.000Z",
@@ -138,14 +146,14 @@ export default function Opportunities() {
         Vaga_Tipo_Contrato: 1,
         Vaga_Usuario: 18,
         Vaga_Periodo_Vaga: 1,
-        Vaga_Requisitos: "Experiência em desenvolvimento de software"
+        Vaga_Requisitos: "Experiência em desenvolvimento de software",
       },
       {
         Vaga_Id: 3044,
         Vaga_Titulo: "Consultor de Vendas",
         Vaga_Responsabilidade: "Realizar vendas de produtos",
         Vaga_Diferencial: "Experiência com CRM",
-        Vaga_Remuneracao: 3000.00,
+        Vaga_Remuneracao: 3000.0,
         Vaga_Justificativa: null,
         Vaga_EmailVisualizadores: null,
         Vaga_Datacriacao: "2024-07-25T00:00:00.000Z",
@@ -159,7 +167,7 @@ export default function Opportunities() {
         Vaga_Tipo_Contrato: 1,
         Vaga_Usuario: 18,
         Vaga_Periodo_Vaga: 1,
-        Vaga_Requisitos: "Habilidade em vendas"
+        Vaga_Requisitos: "Habilidade em vendas",
       },
     ];
     setOpportunities(data);
@@ -185,10 +193,12 @@ export default function Opportunities() {
         </div>
 
         <div className="opportunityList-box">
-          <OpportunityList 
-            opportunities={filteredOpportunities} 
+          <OpportunityList
+            opportunities={filteredOpportunities}
             onClick={setSelectedOpportunity}
-            selectedOpportunityId={selectedOpportunity ? selectedOpportunity.Vaga_Id : null}
+            selectedOpportunityId={
+              selectedOpportunity ? selectedOpportunity.Vaga_Id : null
+            }
           />
           <OpportunityDetail opportunity={selectedOpportunity} />
         </div>
